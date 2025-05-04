@@ -60,5 +60,4 @@ router.delete('/:id', async (req, res) => {
     res.status(500).json({ error: 'Gagal menghapus Todo list' });
   }
 });
-
 module.exports = router;
