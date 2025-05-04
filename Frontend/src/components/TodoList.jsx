@@ -43,7 +43,7 @@ const TodoList = () => {
 
   return (
     <div className="w-full max-w-md mx-auto">
-      <h1 className="text-2xl font-bold text-center my-6 text-gray-800">Todo List</h1>
+      <h1 className="text-5xl font-bold text-center my-6 text-gray-800">Todo List</h1>
       <CreateTodo onAddTodo={addTodo} />
       
       <div className="mt-6">
